@@ -13,3 +13,14 @@
     align-items: center;
     justify-content: center;
 }
+
+#tooltip {
+    position: absolute;
+    opacity: 0;
+    padding: 10px;
+    font: 12px sans-serif;
+    background: red;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+  }
